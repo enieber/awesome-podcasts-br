@@ -1,0 +1,8 @@
+sudo: false
+language: node_js
+
+before_script:
+ - npm install
+
+script:
+ - jshint data/podcasts.json
